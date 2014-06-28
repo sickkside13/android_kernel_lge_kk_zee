@@ -492,8 +492,8 @@ EXPORT_SYMBOL(ImmVibeSPI_ForceOut_AmpDisable);
     }
 
     return VIBE_S_SUCCESS;
-EXPORT_SYMBOL(ImmVibeSPI_ForceOut_AmpEnable);
 }
+EXPORT_SYMBOL(ImmVibeSPI_ForceOut_AmpEnable);
 
 /*
 ** Called at initialization time to set PWM freq, disable amp, etc...
