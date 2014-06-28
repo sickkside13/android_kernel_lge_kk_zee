@@ -500,7 +500,7 @@ int led_pattern_sysfs_register(void)
 #ifdef CONFIG_AOSP
  	struct class *z_rgb;
  	struct device *pattern_sysfs_dev;
- 	g2_rgb = class_create(THIS_MODULE, "z_rgb_led");
+ 	z_rgb = class_create(THIS_MODULE, "z_rgb_led");
  	if (IS_ERR(z_rgb)) {
  		printk("Failed to create class(z_rgb_led)!\n");
  	}
