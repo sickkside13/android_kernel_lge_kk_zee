@@ -1,0 +1,11 @@
+Starting: Intent { cmp=com.kyocera.hiddendebug/.Hidden }
+java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.kyocera.hiddendebug/.Hidden } from null (pid=1727, uid=2000) requires com.kyocera.permission.HIDDEN_DEBUG
+	at android.os.Parcel.readException(Parcel.java:1327)
+	at android.os.Parcel.readException(Parcel.java:1281)
+	at android.app.ActivityManagerProxy.startActivity(ActivityManagerNative.java:1631)
+	at com.android.commands.am.Am.runStart(Am.java:433)
+	at com.android.commands.am.Am.run(Am.java:107)
+	at com.android.commands.am.Am.main(Am.java:80)
+	at com.android.internal.os.RuntimeInit.finishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:238)
+	at dalvik.system.NativeStart.main(Native Method)
